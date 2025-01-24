@@ -1,6 +1,6 @@
 import { test, expect } from "@playwright/test";
 
-test("test", async ({ page }) => {
+test("Test Comment Blog", async ({ page }) => {
   // Set tanggal dan waktu
   const now = new Date();
   const date = now.getDate().toString().padStart(2, "0");
